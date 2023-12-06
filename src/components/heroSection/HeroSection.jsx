@@ -1,18 +1,9 @@
-
-'use client';
-
-import { Carousel } from 'flowbite-react';
+import React from "react";
 
 function HeroSection() {
   return (
-    <div className="hidden lg:block h-60">
-      <Carousel>
-        <img src="images/bannerOne.png" alt="..." />
-        <img src="images/bannerTwo.png" alt="..." />
-        <img src="images/bannerThree.png" alt="..." />
-        <img src="images/bannerFour.png" alt="..." />
-        <img src="images/bannerFive.png" alt="..." />
-      </Carousel>
+    <div>
+      <img src="images/bannerOne.png" alt="" />
     </div>
   );
 }
